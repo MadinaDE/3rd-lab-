@@ -1,0 +1,13 @@
+digraph {
+	A [label="Data Ingestion"]
+	B [label="Data Cleaning"]
+	C [label="Feature Engineering"]
+	D [label="Model Training"]
+	E [label="Model Evaluation"]
+	F [label="Model Deployment"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+}
